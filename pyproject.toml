@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "iadevs"
+version = "0.1.0"
+description = ""
+authors = ["Gustavo Oliveira <gust4vo-mlo@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+langflow = "^1.0.7"
+nltk = "^3.8.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
